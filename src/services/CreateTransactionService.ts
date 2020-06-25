@@ -2,9 +2,13 @@
 
 import Transaction from '../models/Transaction';
 
+interface Request{
+
+}
+
 class CreateTransactionService {
-  public async execute(): Promise<Transaction> {
-    // TODO
+  public async execute({}: Request): Promise<Transaction> {
+
   }
 }
 
